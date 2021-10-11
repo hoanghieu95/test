@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-27 11:32:21 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="D:\test5\test.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <route-files value="D:\test5\test.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="flow_0" begin="0.00" departSpeed="3.00" from="gneE15" to="gneE25" via="gneE11 gneE12" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_1" begin="0.00" departSpeed="3.00" color="red" from="gneE15" to="gneE22" via="gneE11 gneE12" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_2" begin="0.00" departSpeed="3.00" color="blue" from="gneE15" to="gneE23" via="gneE11 gneE12" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_3" begin="0.00" departSpeed="3.00" color="grey" from="gneE15" to="gneE23" via="gneE12" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_4" begin="0.00" departSpeed="3.00" color="black" from="gneE21" to="gneE13" via="gneE5" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_5" begin="0.00" departSpeed="3.00" color="white" from="gneE21" to="gneE8" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_6" begin="0.00" departSpeed="3.00" color="magenta" from="gneE21" to="gneE34" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="flow_7" begin="0.00" departSpeed="3.00" color="128,128,0" from="gneE21" to="gneE36" end="3600.00" vehsPerHour="1800.00"/>
+</routes>
